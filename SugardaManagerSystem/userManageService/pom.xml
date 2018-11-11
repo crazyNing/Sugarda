@@ -5,11 +5,11 @@
 
 	<groupId>com.Sugarda</groupId>
 	<artifactId>userManageService</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>V1.0</version>
 	<packaging>jar</packaging>
 
 	<name>userManageService</name>
-	<description>Demo project for Spring Boot</description>
+	<description>The modular of Sugarda to manage users</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -41,27 +41,15 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

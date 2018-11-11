@@ -1,4 +1,4 @@
-package com.Sugarda.userManageService.common;
+package com.Sugarda.userManageService.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

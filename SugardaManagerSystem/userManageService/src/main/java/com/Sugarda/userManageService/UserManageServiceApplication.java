@@ -1,12 +1,12 @@
-package com.wangNing.Sugarda;
+package com.Sugarda.userManageService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SugardaApplication {
+public class UserManageServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SugardaApplication.class, args);
+		SpringApplication.run(UserManageServiceApplication.class, args);
 	}
 }

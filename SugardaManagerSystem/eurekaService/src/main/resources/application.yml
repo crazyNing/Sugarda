@@ -5,6 +5,10 @@ server:
 spring:
   application:
     name: eureka-service
+  security:
+    user:
+      name: admin
+      password: admin123
 
 eureka:
   instance:
@@ -12,8 +16,8 @@ eureka:
   #注册中心不需要注册自己
   client:
     register-with-eureka: false
-  #注册中心不需要去发现服务
+    #注册中心不需要去发现服务
     fetch-registry: false
-  #设置服务注册中心的URL
+    #设置服务注册中心的URL
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka

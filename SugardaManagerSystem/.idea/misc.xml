@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/eurekaService/pom.xml" />
         <option value="$PROJECT_DIR$/userManageService/pom.xml" />
         <option value="$PROJECT_DIR$/gatewayService/pom.xml" />
+        <option value="$PROJECT_DIR$/configService/pom.xml" />
       </list>
     </option>
   </component>

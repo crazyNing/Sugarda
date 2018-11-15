@@ -5,11 +5,11 @@
 
     <groupId>com.Sugarda</groupId>
     <artifactId>gatewayService</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>V1.0</version>
     <packaging>jar</packaging>
 
     <name>gatewayService</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Gateway service for the modular of Sugarda..</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

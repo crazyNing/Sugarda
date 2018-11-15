@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>userManageService</name>
-    <description>The modular of Sugarda to manage users</description>
+    <description>User manager service for the modular of Sugarda.</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

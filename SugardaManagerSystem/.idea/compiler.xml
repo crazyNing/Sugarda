@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaService" />
+        <module name="gatewayService" />
         <module name="userManageService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaService" target="1.8" />
+      <module name="gatewayService" target="1.8" />
       <module name="userManageService" target="1.8" />
     </bytecodeTargetLevel>
   </component>

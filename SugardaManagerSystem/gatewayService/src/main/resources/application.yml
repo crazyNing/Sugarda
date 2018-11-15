@@ -1,0 +1,17 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: GATEWAY-SERVICE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin123@localhost:8761/eureka/
+zuul:
+  routes:
+    api-a:
+      path: /api/user/**
+      serviceId: USERMANAGER-SERVICE #如果是/ribbon/**路径下的请求，则跳转到service-ribbon
+    api-b:
+      path: /api/department/**
+      serviceId: service-feign  #如果是/feign/**路径下的请求，则跳转到service-feign

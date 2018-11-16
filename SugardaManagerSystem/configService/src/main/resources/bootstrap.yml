@@ -16,3 +16,12 @@ eureka:
       defaultZone: http://admin:admin123@localhost:8761/eureka/
 encrypt:
   key: wangNing
+security:
+  user:
+    name: admin
+    password: admin123
+  basic:
+    enabled: true
+management:
+  security:
+    enabled: true

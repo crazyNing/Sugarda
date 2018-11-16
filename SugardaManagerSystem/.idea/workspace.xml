@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e708b589-dede-4a0a-84fc-37a6f643332e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManageService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userManageService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaService/target/" />
     <ignored path="$PROJECT_DIR$/userManageService/target/" />
@@ -20,44 +29,45 @@
     <session id="1928700936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmd" value="1" />
-          <entry key="iml" value="3" />
-          <entry key="java" value="13" />
-          <entry key="xml" value="9" />
-          <entry key="yml" value="10" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="15" />
+          <entry key="xml" value="17" />
+          <entry key="yml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="13" />
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="JAVA" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="9" />
-          <entry key="YAML" value="10" />
+          <entry key="XML" value="17" />
+          <entry key="YAML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="275" />
-          <entry key="xml" value="152" />
-          <entry key="yml" value="897" />
+          <entry key="java" value="344" />
+          <entry key="xml" value="157" />
+          <entry key="yml" value="1117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="275" />
-          <entry key="XML" value="152" />
-          <entry key="YAML" value="897" />
+          <entry key="JAVA" value="344" />
+          <entry key="XML" value="157" />
+          <entry key="YAML" value="1117" />
         </counts>
       </usages-collector>
     </session>
@@ -110,73 +120,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekaService/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/java/com/Sugarda/configService/ConfigServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="342">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -184,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="152">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -193,8 +141,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="228">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userManageService/userManageService.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gatewayService/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userManageService/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -220,18 +235,19 @@
         <option value="$PROJECT_DIR$/userManageService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/GatewayServiceApplication.java" />
-        <option value="$PROJECT_DIR$/eurekaService/pom.xml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/java/com/Sugarda/configService/ConfigServiceApplication.java" />
         <option value="$PROJECT_DIR$/gatewayService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE.yml" />
+        <option value="$PROJECT_DIR$/eurekaService/pom.xml" />
+        <option value="$PROJECT_DIR$/configService/pom.xml" />
+        <option value="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" />
         <option value="$PROJECT_DIR$/userManageService/pom.xml" />
+        <option value="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml" />
+        <option value="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" />
+        <option value="$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/gatewayService/pom.xml" />
         <option value="$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" />
-        <option value="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" />
-        <option value="$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/configService/pom.xml" />
         <option value="$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml" />
       </list>
@@ -252,7 +268,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/APache/Maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="C:/Program Files/Apache/Maven/apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -294,6 +310,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eurekaService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="gatewayService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -304,6 +325,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="userManageService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="userManageService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -420,9 +446,14 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -455,15 +486,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -506,106 +528,87 @@
               <item name="eurekaService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaService" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,14 +620,14 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542292501299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542343264168" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/configService/src/main/resources/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -644,7 +647,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserManageServiceApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Sugarda.configService.ConfigServiceApplication" />
@@ -693,8 +696,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServiceApplication" />
         <item itemvalue="Spring Boot.UserManageServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -720,16 +723,19 @@
       <workItem from="1542276019647" duration="113000" />
       <workItem from="1542288568171" duration="3900000" />
       <workItem from="1542294463276" duration="1366000" />
+      <workItem from="1542331222895" duration="1421000" />
+      <workItem from="1542332719311" duration="1117000" />
+      <workItem from="1542335006760" duration="4914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17397000" />
+    <option name="totallyTimeSpent" value="24849000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28144988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -739,7 +745,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48373103" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46033993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -756,7 +762,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32942432" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32885906" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -779,9 +785,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/eurekaService/gatewayServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/userManageService/userManageService.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/eurekaService/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -796,94 +799,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configService/src/main/java/com/Sugarda/configService/ConfigServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="228">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/configService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="216">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userManageService/userManageService.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="133">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userManageService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

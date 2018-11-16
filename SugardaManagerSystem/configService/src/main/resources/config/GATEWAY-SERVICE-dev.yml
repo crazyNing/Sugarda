@@ -6,3 +6,9 @@ zuul:
     api-b:
       path: /api/department/**
       serviceId: service-feign
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false

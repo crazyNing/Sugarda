@@ -4,6 +4,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://admin:admin123@localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5
 spring:
   application:
     name: GATEWAY-SERVICE
@@ -12,5 +13,7 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG-SERVICE
+      username: admin
+      password: admin123
   profiles:
     active: dev

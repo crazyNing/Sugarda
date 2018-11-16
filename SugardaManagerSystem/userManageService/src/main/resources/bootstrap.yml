@@ -12,5 +12,7 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG-SERVICE
+      username: admin
+      password: admin123
   profiles:
     active: dev

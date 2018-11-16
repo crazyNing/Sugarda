@@ -1,32 +1,35 @@
 #设置tomcat服务端口号
 server:
   port: 8761
-  #设置服务名称
+#设置服务名称
 spring:
   application:
     name: EUREKA-SERVICE
 
 eureka:
   server:
-    #    enableSelfPreservation: true
+    # 设置节点失效后保留时间
     eviction-interval-timer-in-ms: 1800
-  #  instance:
-  #    hostname: localhost
-  #    prefer-ip-address: true
-  #注册中心不需要注册自己
+    #设置关闭eureka自我保护机制，不踢出失效节点
+#    enable-self-preservation: false
   client:
+    #注册中心不注册到另一个地址
     register-with-eureka: false
     #    #注册中心不需要去发现服务
     fetch-registry: false
-    #设置服务注册中心的URL
-    serviceUrl:
-      defaultZone: http://admin:admin123@localhost:8761/eureka/
+    #设置服务注册中心的URL，集群时开启
+#    serviceUrl:
+#      defaultZone: http://admin:admin123@localhost:8761/eureka/
 security:
   user:
+    #设置安全登陆验证，用户名
     name: admin
+    #设置安全登陆验证，密码
     password: admin123
   basic:
+    #开启安全登陆验证
     enabled: true
 management:
   security:
+    #开启关键信息安全验证，以security.basic.enable为主
     enabled: true

@@ -1,9 +1,0 @@
-server:
-  port: 8001
-spring:
-  application:
-    name: USERMANAGER-SERVICE
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://admin:admin123@localhost:8761/eureka/

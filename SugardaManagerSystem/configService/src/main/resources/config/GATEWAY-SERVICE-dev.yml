@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    api-a:
+      path: /api/user/**
+      serviceId: USERMANAGER-SERVICE
+    api-b:
+      path: /api/department/**
+      serviceId: service-feign

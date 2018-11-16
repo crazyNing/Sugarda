@@ -1,0 +1,18 @@
+server:
+  port: 8001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin123@localhost:8761/eureka/
+spring:
+  application:
+    name: USERMANAGER-SERVICE
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVICE
+      username: admin
+      password: admin123
+  profiles:
+    active: dev

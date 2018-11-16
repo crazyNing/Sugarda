@@ -1,0 +1,38 @@
+#设置服务端口
+server:
+  port: 8888
+  #设置服务名
+spring:
+  application:
+    name: CONFIG-SERVICE
+  #设置本地配置中心文件路径
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:config/
+  #设置激活配置中心文件路径为本地路径
+  profiles:
+    active: native
+eureka:
+  client:
+    serviceUrl:
+      #设置eureka注册中心地址
+      defaultZone: http://admin:admin123@localhost:8761/eureka/
+#  instance: #将自身的用户名密码告知eureka，spring boot2.0以后版本生效
+#    metadata-map:
+#      "user.name": ${security.user.name}
+#      "user.password": ${security.user.password}
+#加密密钥
+encrypt:
+  key: wangNing
+#设置服务所需用户名密码以及限制访问
+security:
+  user:
+    name: admin
+    password: admin123
+  basic:
+    enabled: true
+management:
+  security:
+    enabled: true

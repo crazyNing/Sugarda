@@ -1,6 +1,10 @@
-#security:
-#  basic:
-#    enabled: false
-#management:
-#  security:
-#    enabled: false
+#设置本服务访问所需的用户名密码，开启服务登陆验证
+security:
+#  user:
+#    name: admin
+#    password: admin123
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false

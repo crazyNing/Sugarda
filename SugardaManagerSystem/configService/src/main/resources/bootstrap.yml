@@ -1,10 +1,10 @@
 server:
-  #设置服务端口
-  port: 8888
+  #设置服务端口，通过环境变量获取，如果没有就使用冒号后面的值
+  port: ${CONFIG_SERVER_PORT:8888}
 spring:
   application:
-    #设置服务名
-    name: CONFIG-SERVICE
+    #设置服务名，通过环境变量获取，如果没有就使用冒号后面的值
+    name: ${CONFIG_SERVICE_NAME:CONFIG-SERVICE}
   cloud:
     config:
       server:
@@ -12,8 +12,8 @@ spring:
           #设置配置中心文件路径
           search-locations: classpath:config/
   profiles:
-    #设置激活配置中心存放配置文件地址为本地服务
-    active: native
+    #设置激活配置中心存放配置文件地址为本地服务，通过环境变量获取，如果没有就使用冒号后面的值
+    active: ${CONFIG_PROFILES_ACTIVE:native}
 eureka:
   instance:
     #是否使用IP代替实例名，默认为True,设置为True时instance-id属性中的获取值不生效
@@ -21,27 +21,27 @@ eureka:
     #设置服务在eureka中访问的地址，默认使用IP
     #hostname: ${spring.cloud.client.ipAddress}
     #设置服务在页面显示的值，默认为IP+服务名+端口号
-    #instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+#    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
   client:
     serviceUrl:
-      #设置eureka注册中心地址
-      defaultZone: http://admin:admin123@localhost:8761/eureka/
+      #设置eureka注册中心地址，通过环境变量获取，如果没有就使用冒号后面的值
+      defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
    #instance: #将自身的用户名密码告知eureka，spring boot2.0以后版本生效
      #metadata-map:
        #"user.name": ${security.user.name}
        #"user.password": ${security.user.password}
-#JCE加密密钥
 encrypt:
-  key: wangNing
-#设置服务所需用户名密码以及限制访问
+  #JCE加密密钥，通过环境变量获取，如果没有就使用冒号后面的值
+  key: ${ENCRYPT_KEY:wangNing}
+#设置服务所需用户名密码以及限制访问，通过环境变量获取，如果没有就使用冒号后面的值
 security:
   user:
-    name: admin
-    password: admin123
+    name: ${CONFIG_USER_NAME:admin}
+    password: ${CONFIG_USER_PASSWORD:admin123}
   basic:
     #开启默认安全配置
     enabled: true
 management:
   security:
     #设置服务安全配置
-    enabled: true
+    enabled: false

@@ -2,7 +2,13 @@ zuul:
   routes:
     api-a:
       path: /api/user/**
-      serviceId: USERMANAGER-SERVICE
-    api-b:
-      path: /api/department/**
-      serviceId: service-feign
+      serviceId: USERMANAGE-SERVICE
+#    api-b:
+#      path: /api/department/**
+#      serviceId: service-feign
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false

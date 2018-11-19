@@ -30,9 +30,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Edgware.SR4</spring-cloud.version>
-        <my.user.name>admin</my.user.name>
-        <my.user.password>admin123</my.user.password>
-        <encrypt.key>wangNing</encrypt.key>
     </properties>
 
     <dependencies>

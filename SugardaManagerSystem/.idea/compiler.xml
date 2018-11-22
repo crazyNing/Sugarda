@@ -18,6 +18,7 @@
       <module name="configService" target="1.8" />
       <module name="eurekaService" target="1.8" />
       <module name="gatewayService" target="1.8" />
+      <module name="parentPOM" target="1.8" />
       <module name="userManageService" target="1.8" />
     </bytecodeTargetLevel>
   </component>

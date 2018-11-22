@@ -1,10 +1,10 @@
 server:
   #设置服务端口号
-  port: 8761
+  port: ${EUREKA_SERVER_PORT:8761}
 spring:
   application:
     #设置服务名称
-    name: EUREKA-SERVICE
+    name: ${EUREKA_SERVICE_NAME:EUREKA-SERVICE}
 eureka:
   instance:
     #是否使用IP代替服务名，默认为True
@@ -12,7 +12,7 @@ eureka:
     #设置服务在eureka中访问的URL，默认使用IP+服务名+端口
     #hostname: ${spring.application.name}:${server.port}
     #设置服务在页面显示的值，默认为IP+服务名+端口号
-    #instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+#    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
   server:
     #是否向本服务自身注册自己，默认为True
     enable-self-preservation: true
@@ -28,14 +28,14 @@ eureka:
     #注册中心是否要获取上级eureka的服务列表,默认值为True，集群时开启
     fetch-registry: false
     #设置服务注册中心的URL，集群时开启，多个地址间用逗号隔开
-    #serviceUrl:
-      #defaultZone: http://admin:admin123@localhost:8761/eureka/
+#    serviceUrl:
+#      defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
 security:
   user:
     #设置安全登陆验证，用户名
-    name: admin
+    name: ${EUREKA_SERVICE_USER_NAME:admin}
     #设置安全登陆验证，密码
-    password: admin123
+    password: ${EUREKA_SERVICE_USER_PASSWORD:admin123}
   basic:
     #开启安全登陆验证
     enabled: true

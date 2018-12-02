@@ -14,7 +14,7 @@ eureka:
     #设置服务在页面显示的值，默认为IP+服务名+端口号
     #instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
     #设置服务访问的ip地址
-    #ip-address: ${spring_application_name:192.168.100.1}
+    #ip-address: ${spring_application_ip:192.168.100.1}
   server:
     #是否向本服务自身注册自己，默认为True
     enable-self-preservation: true
@@ -45,3 +45,10 @@ management:
   security:
     #开启关键信息安全验证，以security.basic.enable为主
     enabled: true
+logging:
+  #设置输出日志文件名
+  file: eureka.log
+  #格式化,只输出日期及内容
+  #pattern: "%d - %msg%n"
+  #设置输出日志路径
+  #path: /home/SugardaLogs

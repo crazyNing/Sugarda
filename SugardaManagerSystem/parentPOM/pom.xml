@@ -23,6 +23,7 @@
         <module>../eurekaService</module>
         <module>../configService</module>
         <module>../adminService</module>
+        <module>../uaaService</module>
     </modules>
 
     <properties>

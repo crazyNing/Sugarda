@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaService/eurekaService.iml" filepath="$PROJECT_DIR$/eurekaService/eurekaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/gatewayService/gatewayService.iml" filepath="$PROJECT_DIR$/gatewayService/gatewayService.iml" />
       <module fileurl="file://$PROJECT_DIR$/parentPOM/parentPOM.iml" filepath="$PROJECT_DIR$/parentPOM/parentPOM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaaService/uaaService.iml" filepath="$PROJECT_DIR$/uaaService/uaaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/userManageService/userManageService.iml" filepath="$PROJECT_DIR$/userManageService/userManageService.iml" />
     </modules>
   </component>

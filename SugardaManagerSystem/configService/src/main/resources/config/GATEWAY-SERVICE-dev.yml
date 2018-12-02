@@ -3,12 +3,17 @@ zuul:
     api-a:
       path: /api/user/**
       serviceId: USERMANAGE-SERVICE
-#    api-b:
-#      path: /api/department/**
-#      serviceId: service-feign
+    api-b:
+      path: /api/login/**
+      serviceId: UAA-SERVICE
 security:
   basic:
     enabled: false
 management:
   security:
     enabled: false
+logging:
+  #设置输出日志文件名
+  file: gateway.log
+  #设置输出日志路径
+  #path: /home/SugardaLogs

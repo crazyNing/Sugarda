@@ -16,20 +16,22 @@ spring:
     active: ${CONFIG_PROFILES_ACTIVE:native}
 eureka:
   instance:
+    prefer-ip-address: true
     #是否使用IP代替实例名，默认为True,设置为True时instance-id属性中的获取值不生效
-    #prefer-ip-address: false
     #设置服务在eureka中访问的地址，默认使用IP
     #hostname: ${spring.cloud.client.ipAddress}
     #设置服务在页面显示的值，默认为IP+服务名+端口号
-#    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+    #设置服务访问的ip地址
+    ip-address: ${spring_application_ip:localhost}
   client:
     serviceUrl:
       #设置eureka注册中心地址，通过环境变量获取，如果没有就使用冒号后面的值
       defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
-   #instance: #将自身的用户名密码告知eureka，spring boot2.0以后版本生效
-     #metadata-map:
-       #"user.name": ${security.user.name}
-       #"user.password": ${security.user.password}
+        #instance: #将自身的用户名密码告知eureka，spring boot2.0以后版本生效
+      #metadata-map:
+      #"user.name": ${security.user.name}
+      #"user.password": ${security.user.password}
 encrypt:
   #JCE加密密钥，通过环境变量获取，如果没有就使用冒号后面的值
   key: ${ENCRYPT_KEY:wangNing}
@@ -40,8 +42,13 @@ security:
     password: ${CONFIG_USER_PASSWORD:admin123}
   basic:
     #开启默认安全配置
-    enabled: true
+    enabled: false
 management:
   security:
     #设置服务安全配置
     enabled: false
+logging:
+  #设置输出日志文件名
+  file: config.log
+  #设置输出日志路径
+  #path: /home/SugardaLogs

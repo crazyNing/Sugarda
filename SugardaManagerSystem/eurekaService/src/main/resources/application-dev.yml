@@ -1,0 +1,54 @@
+server:
+  #设置服务端口号
+  port: ${EUREKA_SERVER_PORT:8761}
+spring:
+  application:
+    #设置服务名称
+    name: ${EUREKA_SERVICE_NAME:EUREKA-SERVICE}
+eureka:
+  instance:
+    #是否使用IP代替服务名，默认为True
+    prefer-ip-address: true
+    #设置服务在eureka中访问的URL，默认使用IP+服务名+端口
+    #hostname: ${spring.application.name}:${server.port}
+    #设置服务在页面显示的值，默认为IP+服务名+端口号
+    #instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+    #设置服务访问的ip地址
+    #ip-address: ${spring_application_ip:192.168.100.1}
+  server:
+    #是否向本服务自身注册自己，默认为True
+    enable-self-preservation: true
+    #设置节点失效后保留时间，默认1800
+    #eviction-interval-timer-in-ms: 1800
+    #设置eureka在服务离线比例值达到多少时进入自我保护机制，默认0.85
+    #renewal-percent-threshold:0.85
+    #设置关闭eureka自我保护机制，不踢出失效节点，默认true
+    #enable-self-preservation: false
+  client:
+    #是否注册到另一个eureka，默认为True
+    register-with-eureka: false
+    #注册中心是否要获取上级eureka的服务列表,默认值为True，集群时开启
+    fetch-registry: false
+    #设置服务注册中心的URL，集群时开启，多个地址间用逗号隔开
+#    serviceUrl:
+#      defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
+security:
+  user:
+    #设置安全登陆验证，用户名
+    name: ${EUREKA_SERVICE_USER_NAME:admin}
+    #设置安全登陆验证，密码
+    password: ${EUREKA_SERVICE_USER_PASSWORD:admin123}
+  basic:
+    #开启安全登陆验证
+    enabled: true
+management:
+  security:
+    #开启关键信息安全验证，以security.basic.enable为主
+    enabled: true
+logging:
+  #设置输出日志文件名
+  file: eureka.log
+  #格式化,只输出日期及内容
+  #pattern: "%d - %msg%n"
+  #设置输出日志路径
+  #path: /home/SugardaLogs

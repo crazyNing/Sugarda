@@ -10,6 +10,7 @@
         <module name="configService" />
         <module name="eurekaService" />
         <module name="gatewayService" />
+        <module name="uaaService" />
         <module name="userManageService" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="eurekaService" target="1.8" />
       <module name="gatewayService" target="1.8" />
       <module name="parentPOM" target="1.8" />
+      <module name="uaaService" target="1.8" />
       <module name="userManageService" target="1.8" />
     </bytecodeTargetLevel>
   </component>

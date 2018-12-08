@@ -13,20 +13,22 @@ spring:
         #设置配置中心的服务名
         service-id: ${CONFIG_SERVICE_NAME:CONFIG-SERVICE}
       #设置访问配置中心所需的用户名
-      username: ${CONFIG_SERVICE_USER_NAME:admin}
+      #username: ${CONFIG_SERVICE_USER_NAME:admin}
       #设置访问配置中心所需的密码
-      password: ${CONFIG_SERVICE_USER_PASSWORD:admin123}
+      #password: ${CONFIG_SERVICE_USER_PASSWORD:admin123}
   profiles:
     #设置激活的配置文件的配置
-    active: ${GATEWAY_PROFILES_ACTIVE:dev}
+    active: ${PROFILES_ACTIVE:dev}
 eureka:
   instance:
     #是否使用IP代替实例名，默认为True,设置为True时instance-id属性中的获取值不生效
-    #prefer-ip-address: false
+    prefer-ip-address: true
     #设置服务在eureka中访问的地址，默认使用IP
     #hostname: ${spring.cloud.client.ipAddress}
     #设置服务在页面显示的值，默认为IP+服务名+端口号
-    #instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}---Version:@project.version@
+    #设置服务访问的ip地址
+    ip-address: ${spring_application_ip:localhost}
   client:
     serviceUrl:
       #设置eureka注册中心地址

@@ -23,7 +23,7 @@ eureka:
     #设置关闭eureka自我保护机制，不踢出失效节点，默认true
     #enable-self-preservation: false
     #设置eureka在服务离线比例值达到多少时进入自我保护机制，默认0.85
-    renewal-percent-threshold: 0
+    #renewal-percent-threshold: 0
   client:
     #是否注册到另一个eureka，默认为True
     register-with-eureka: true

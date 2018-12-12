@@ -10,6 +10,6 @@ management:
     enabled: false
 logging:
   #设置输出日志文件名
-  file: admin.log
+  file: ../admin.log
   #设置输出日志路径
-  path: /home/SugardaLogs
+  #path: /home/SugardaLogs

@@ -47,7 +47,7 @@ management:
     enabled: true
 logging:
   #设置输出日志文件名
-  file: eureka.log
+  file: ../eureka.log
   #格式化,只输出日期及内容
   #pattern: "%d - %msg%n"
   #设置输出日志路径

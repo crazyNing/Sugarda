@@ -1,6 +1,6 @@
 server:
   #设置本服务所占端口
-  port: ${UAA_SERVER_PORT:8001}
+  port: ${SERVER_PORT:8001}
   session:
     cookie:
       name: UAAOAUTH

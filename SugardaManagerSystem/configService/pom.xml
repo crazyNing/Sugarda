@@ -3,10 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.Sugarda</groupId>
+    <!--<groupId>com.Sugarda</groupId>-->
     <artifactId>configService</artifactId>
     <version>V1.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
+    <!--<packaging>jar</packaging>-->
 
     <name>configService</name>
     <description>The config center service for the modular of Sugarda.</description>

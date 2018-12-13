@@ -1,6 +1,6 @@
 server:
   #设置服务端口，通过环境变量获取，如果没有就使用冒号后面的值
-  port: ${CONFIG_SERVER_PORT:8888}
+  port: ${SERVER_PORT:8888}
 spring:
   application:
     #设置服务名，通过环境变量获取，如果没有就使用冒号后面的值

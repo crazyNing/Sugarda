@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="uaaService:war">
+    <output-path>$PROJECT_DIR$/uaaService/target</output-path>
+    <root id="archive" name="uaaService-V1.0.war">
+      <element id="artifact" artifact-name="uaaService:war exploded" />
+    </root>
+  </artifact>
+</component>

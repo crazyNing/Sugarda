@@ -1,6 +1,6 @@
 server:
   #设置服务端口
-  port: ${GATEWAY_SERVER_PORT:5000}
+  port: ${SERVER_PORT:5000}
 spring:
   application:
     #设置服务名

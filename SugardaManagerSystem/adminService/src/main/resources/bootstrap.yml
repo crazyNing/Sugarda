@@ -1,6 +1,6 @@
 server:
-  #设置服务占用端口
-  port: ${ADMIN_SERVER_PORT:8762}
+  #设置服务占用端口,war包运行不起作用
+  port: ${SERVER_PORT:8762}
 spring:
   application:
     #设置服务名称

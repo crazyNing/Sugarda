@@ -16,12 +16,10 @@ eureka:
     #设置服务访问的ip地址
     ip-address: ${spring_application_ip:192.168.100.1}
   server:
-    #是否向本服务自身注册自己，默认为True
-    enable-self-preservation: true
-    #设置节点失效后保留时间，默认1800
+    #设置节点失效后保留时间，默认60000
     #eviction-interval-timer-in-ms: 1800
-    #设置关闭eureka自我保护机制，不踢出失效节点，默认true
-    #enable-self-preservation: false
+    #设置eureka自我保护机制，不踢出失效节点，默认true
+    enable-self-preservation: true
     #设置eureka在服务离线比例值达到多少时进入自我保护机制，默认0.85
     #renewal-percent-threshold: 0
   client:
@@ -31,7 +29,7 @@ eureka:
     fetch-registry: true
     #设置服务注册中心的URL，集群时开启，多个地址间用逗号隔开
     serviceUrl:
-      defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
+      defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/,http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${spring_application_ip:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
 security:
   user:
     #设置安全登陆验证，用户名

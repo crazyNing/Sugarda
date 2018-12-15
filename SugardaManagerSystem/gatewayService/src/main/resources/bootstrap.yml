@@ -5,6 +5,9 @@ spring:
   application:
     #设置服务名
     name: ${GATEWAY_SERVICE_NAME:GATEWAY-SERVICE}
+  profiles:
+    #设置激活的配置文件的配置
+    active: ${PROFILES_ACTIVE:dev}
   cloud:
     config:
       discovery:
@@ -16,9 +19,6 @@ spring:
       #username: ${CONFIG_SERVICE_USER_NAME:admin}
       #设置访问配置中心所需的密码
       #password: ${CONFIG_SERVICE_USER_PASSWORD:admin123}
-  profiles:
-    #设置激活的配置文件的配置
-    active: ${PROFILES_ACTIVE:dev}
 eureka:
   instance:
     #是否使用IP代替实例名，默认为True,设置为True时instance-id属性中的获取值不生效

@@ -1,11 +1,16 @@
-#security:
-#  basic:
-#    enabled: false
-#management:
-#  security:
-#    enabled: false
+security:
+  user:
+    #设置安全登陆验证，用户名
+    name: ${UAA_SERVICE_USER_NAME:admin}
+    #设置安全登陆验证，密码
+    password: ${UAA_SERVICE_USER_PASSWORD:admin123}
+  basic:
+    enabled: true
+management:
+  security:
+    enabled: true
 logging:
   #设置输出日志文件名
-  file: uaa.log
+  file: ../uaa.log
   #设置输出日志路径
   #path: /home/SugardaLogs

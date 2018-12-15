@@ -34,7 +34,7 @@ eureka:
       #"user.password": ${security.user.password}
 encrypt:
   #JCE加密密钥，通过环境变量获取，如果没有就使用冒号后面的值
-  key: ${ENCRYPT_KEY:wangNing}
+  key: ${ENCRYPT_KEY:WangNing}
 #设置服务所需用户名密码以及限制访问，通过环境变量获取，如果没有就使用冒号后面的值
 security:
   user:

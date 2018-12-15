@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <!-->达成war包时排除Tomcat<-->
+            <!-->打成war包时排除Tomcat<-->
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>

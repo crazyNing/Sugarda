@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/adminService" />
+    <file type="web" url="file://$PROJECT_DIR$/common" />
     <file type="web" url="file://$PROJECT_DIR$/configService" />
     <file type="web" url="file://$PROJECT_DIR$/eurekaService" />
     <file type="web" url="file://$PROJECT_DIR$/gatewayService" />
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/configService/pom.xml" />
         <option value="$PROJECT_DIR$/adminService/pom.xml" />
         <option value="$PROJECT_DIR$/parentPOM/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
       </list>
     </option>
   </component>

@@ -12,16 +12,19 @@
         <module name="gatewayService" />
         <module name="uaaService" />
         <module name="userManageService" />
+        <module name="userManageService (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adminService" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="configService" target="1.8" />
       <module name="eurekaService" target="1.8" />
       <module name="gatewayService" target="1.8" />
       <module name="parentPOM" target="1.8" />
       <module name="uaaService" target="1.8" />
       <module name="userManageService" target="1.8" />
+      <module name="userManageService (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

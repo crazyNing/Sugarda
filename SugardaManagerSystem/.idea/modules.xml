@@ -4,14 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SugardaManagerSystem.iml" filepath="$PROJECT_DIR$/.idea/SugardaManagerSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/adminService/adminService.iml" filepath="$PROJECT_DIR$/adminService/adminService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/configService/configService.iml" filepath="$PROJECT_DIR$/configService/configService.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaService/eurekaService.iml" filepath="$PROJECT_DIR$/eurekaService/eurekaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/gatewayService/gatewayService.iml" filepath="$PROJECT_DIR$/gatewayService/gatewayService.iml" />
       <module fileurl="file://$PROJECT_DIR$/parentPOM/parentPOM.iml" filepath="$PROJECT_DIR$/parentPOM/parentPOM.iml" />
       <module fileurl="file://$PROJECT_DIR$/uaaService/uaaService.iml" filepath="$PROJECT_DIR$/uaaService/uaaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/userManageService/userManageService.iml" filepath="$PROJECT_DIR$/userManageService/userManageService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/userManageService (1).iml" filepath="$PROJECT_DIR$/common/userManageService (1).iml" />
     </modules>
   </component>
 </project>

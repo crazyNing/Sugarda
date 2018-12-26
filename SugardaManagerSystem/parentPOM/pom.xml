@@ -24,7 +24,6 @@
         <module>../configService</module>
         <module>../adminService</module>
         <module>../uaaService</module>
-        <module>../common</module>
     </modules>
 
     <properties>

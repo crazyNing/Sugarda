@@ -3,9 +3,9 @@ zuul:
     api-a:
       path: /api/user/**
       serviceId: USERMANAGE-SERVICE
-    api-b:
-      path: /api/login/**
-      serviceId: UAA-SERVICE
+#    api-b:
+#      path: /api/login/**
+#      serviceId: UAA-SERVICE
 security:
   basic:
     enabled: false

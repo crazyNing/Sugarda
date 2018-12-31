@@ -21,9 +21,9 @@ eureka:
     #设置服务在eureka中访问的地址，默认使用IP
     #hostname: ${spring.cloud.client.ipAddress}
     #设置服务在页面显示的值，默认为IP+服务名+端口号
-    instance-id: ${spring_application_ip:spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}
+    instance-id: ${spring_application_ip:${spring.cloud.client.ipAddress}}:${spring.application.name}:${server.port}
     #设置服务访问的ip地址
-    ip-address: ${spring_application_ip:spring.cloud.client.ipAddress}
+    ip-address: ${spring_application_ip:${spring.cloud.client.ipAddress}}
   client:
     serviceUrl:
       #设置eureka注册中心地址，通过环境变量获取，如果没有就使用冒号后面的值

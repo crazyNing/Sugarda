@@ -97,13 +97,6 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-security:1.5.13.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.17.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.17.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:4.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.17.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.5.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.5.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.13.RELEASE" />
@@ -118,6 +111,9 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.11.1" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.11" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.17.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

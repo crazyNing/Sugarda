@@ -1,9 +1,6 @@
 server:
   #设置本服务所占端口
   port: ${SERVER_PORT:8001}
-  session:
-    cookie:
-      name: UAAOAUTH
 spring:
   application:
     #设置本服务服务名

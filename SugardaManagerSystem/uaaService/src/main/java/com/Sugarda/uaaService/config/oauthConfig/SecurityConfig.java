@@ -1,28 +1,30 @@
 package com.Sugarda.uaaService.config.oauthConfig;
 
+import com.Sugarda.uaaService.config.oauthConfig.jedisConfig.MyRedisTokenStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
-import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenStore;
-import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
-import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
+import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.util.concurrent.TimeUnit;
 
 
 @Configuration
 public class SecurityConfig extends AuthorizationServerConfigurerAdapter {
+    @Resource // 这里的@Resource很关键,代码会自动去找RedisTemplate
+    private RedisTemplate<String, Object> redisTemplate;
 
     @Value("${Token.StayTime}") // 从配置文件读取token超时时长
     private long tokenStayTime;
@@ -38,8 +40,11 @@ public class SecurityConfig extends AuthorizationServerConfigurerAdapter {
 
     @Bean // 声明TokenStore实现
     public TokenStore tokenStore() {
-        //使用redis存储token
-        RedisTokenStore redisTokenStore = new RedisTokenStore(redisConnectionFactory);
+        //使用redis-cluster时使用以下内容(单节点时也可以使用)——自定义redisTokenStore，解决Pipeline is currently not supported for JedisClusterConnection.
+        MyRedisTokenStore redisTokenStore = new MyRedisTokenStore();
+        redisTokenStore.setRedisTemplate(redisTemplate);
+        //使用单点redis时使用以下内容
+        //RedisTokenStore redisTokenStore = new RedisTokenStore(redisConnectionFactory);
         return redisTokenStore;
         //使用数据库存储token
         //return new JdbcTokenStore(dataSource);

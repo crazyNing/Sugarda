@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+@RequestMapping(value = "/test")
 @EnableEurekaClient
 @SpringBootApplication
 //public class UserManageServiceApplication {
@@ -22,5 +26,10 @@ public class UserManageServiceApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder applicationBuilder) {
         return applicationBuilder.sources(UserManageServiceApplication.class);
+    }
+
+    @RequestMapping(value = "hello")
+    public String test(){
+        return "Hello";
     }
 }

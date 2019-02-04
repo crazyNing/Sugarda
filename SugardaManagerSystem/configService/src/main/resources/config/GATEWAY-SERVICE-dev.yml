@@ -17,3 +17,5 @@ logging:
   file: ../gateway.log
   #设置输出日志路径
   #path: /home/SugardaLogs
+AccessToken:
+  ParameterName: accessToken

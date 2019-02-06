@@ -1,9 +1,1 @@
-post方法
-Header包含：
-Content-Type: application/x-www-form-urlencoded"
-传输内容：
-'grant_type=authorization_code
-code=Li4NZo
-redirect_uri=http://www.baidu.com
-地址：
-http://client:secret@localhost:8080/oauth/token
+http://127.0.0.1:8001/oauth/authorize?client_id=client&response_type=code&redirect_uri=http://www.baidu.com

@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" line="14" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e708b589-dede-4a0a-84fc-37a6f643332e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/common/ResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JwtTokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/AuthorityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_authorities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_type_authorities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/SugardaUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/SugardaUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/User_role_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/SugardaUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-pro.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uaaService/uaaSQL.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/访问oauth2方法.txt" beforeDir="false" afterPath="$PROJECT_DIR$/访问oauth2方法.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../详细设计/数据字典.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../详细设计/数据字典.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaService/target/" />
     <ignored path="$PROJECT_DIR$/userManageService/target/" />
@@ -108,63 +127,64 @@
     <session id="-799752952">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="YML" value="1" />
-          <entry key="class" value="5" />
+          <entry key="class" value="49" />
           <entry key="clientdetails" value="1" />
+          <entry key="cmd" value="1" />
           <entry key="iml" value="4" />
-          <entry key="java" value="43" />
+          <entry key="java" value="160" />
           <entry key="log" value="2" />
           <entry key="oauth_client_details" value="1" />
           <entry key="properties" value="12" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="56" />
-          <entry key="yml" value="162" />
+          <entry key="xml" value="60" />
+          <entry key="yml" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="49" />
           <entry key="Database Element" value="2" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="43" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="160" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="12" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="56" />
-          <entry key="YAML" value="163" />
+          <entry key="XML" value="60" />
+          <entry key="YAML" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
-          <entry key="java" value="3185" />
+          <entry key="dummy" value="23" />
+          <entry key="java" value="7084" />
           <entry key="log" value="1" />
           <entry key="sql" value="12" />
           <entry key="txt" value="10" />
-          <entry key="xml" value="450" />
+          <entry key="xml" value="459" />
           <entry key="yml" value="4302" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3185" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="JAVA" value="7084" />
+          <entry key="PLAIN_TEXT" value="34" />
           <entry key="Scratch" value="12" />
-          <entry key="XML" value="450" />
+          <entry key="XML" value="459" />
           <entry key="YAML" value="4302" />
         </counts>
       </usages-collector>
@@ -176,79 +196,116 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="834">
+              <caret line="118" column="33" lean-forward="true" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3128#3129#0" expanded="true" />
+                <element signature="e#3191#3192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JwtTokenConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="90" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/DealCrossDomain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/MyRedisTokenStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-376">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/filter/AccessFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="52" column="119" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
+            <state relative-caret-position="320">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserDetailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/UaaServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/GatewayServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="288">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-pro.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/SugardaUserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -270,6 +327,12 @@
       <find>RedisTemplate</find>
       <find>log</find>
       <find>login</find>
+      <find>setKeyPair</find>
+      <find>AuthorizationServerConfigurerAdapter</find>
+      <find>with</find>
+      <find>BCrypt</find>
+      <find>additionalAuthenticationChecks</find>
+      <find>enhance</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -284,31 +347,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gatewayService/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE.yml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGER-SERVICE-dev.yml" />
-        <option value="$PROJECT_DIR$/adminService/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/adminService/logback.xml" />
-        <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application-test.yml" />
-        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/application-pro.yml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/eurekaService/src/main/resources/config.yml" />
-        <option value="$PROJECT_DIR$/config.log" />
-        <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/config/ADMIN-SERVICE-pro.yml" />
-        <option value="$PROJECT_DIR$/adminService/src/main/java/com/Sugarda/adminService/AdminServiceApplication.java" />
-        <option value="$PROJECT_DIR$/configService/src/main/java/com/Sugarda/configService/ConfigServiceApplication.java" />
-        <option value="$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/GatewayServiceApplication.java" />
-        <option value="$PROJECT_DIR$/eurekaService/src/main/java/com/Sugarda/eurekaService/EurekaServiceApplication.java" />
-        <option value="$PROJECT_DIR$/gatewayService/src/main/resources/application-pro.yml" />
-        <option value="$PROJECT_DIR$/gatewayService/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/oauthConfig/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/adminService/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaService/pom.xml" />
-        <option value="$PROJECT_DIR$/gatewayService/pom.xml" />
         <option value="$PROJECT_DIR$/userManageService/pom.xml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/ADMIN-SERVICE-dev.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml" />
@@ -321,20 +359,45 @@
         <option value="$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application-pro.yml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c65d2cc3-8f73-4cd4-9d63-d752e0cb2b32/console.sql" />
-        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/UaaServiceApplication.java" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml" />
         <option value="$PROJECT_DIR$/uaaService/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/uaaService/pom.xml" />
-        <option value="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml" />
         <option value="$PROJECT_DIR$/parentPOM/pom.xml" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/PigRedisTokenStore.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/MyRedisTokenStore.java" />
-        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-pro.yml" />
         <option value="$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml" />
+        <option value="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/User.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/UserDetail.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/SugardaUserDetailService.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserDetailService.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_resprities.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/vo/LoginVo.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/SugardaUserDetail.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/common/ResponseData.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_type_authorities.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/SugardaUserService.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/SugardaUser.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_authorities.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/User_role_type.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/UaaServiceApplication.java" />
+        <option value="$PROJECT_DIR$/uaaService/pom.xml" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/Test.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JwtTokenConfig.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/TokenStoreConfig.java" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -374,6 +437,11 @@
           <item name="uaaService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="uaaService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -381,10 +449,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1097" />
+    <option name="y" value="186" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -494,6 +563,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -501,41 +571,6 @@
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -608,19 +643,6 @@
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="parentPOM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
               <item name="uaaService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -673,6 +695,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
               <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -698,6 +732,20 @@
               <item name="uaaService" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="oauthConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="oauthConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="accessTokenConfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -719,13 +767,71 @@
               <item name="uaaService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
               <item name="uaaService" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sugarda" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -807,7 +913,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -818,10 +923,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Workspaces/Git/Sugarda/SugardaManagerSystem/uaaService/src/main/java/com/Sugarda/uaaService/UaaServiceApplication.java&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;RedisTemplate&#9;FILE&#9;jar://C:/Users/汪宁/.m2/repository/org/springframework/data/spring-data-redis/1.8.12.RELEASE/spring-data-redis-1.8.12.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class" />
+    <property name="SearchEverywhereHistoryKey" value="PasswordEncoderFactories&#9;PSI&#9;JAVA://org.springframework.security.crypto.factory.PasswordEncoderFactories&#10;BCryptPasswordEncoder&#9;PSI&#9;JAVA://org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder&#10;DaoAuthenticationProvider&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;additionalAuthenticationChecks&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider#additionalAuthenticationChecks&#10;AuthorizationServerConfigurerAdapter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;RedisTemplate&#9;FILE&#9;jar://C:/Users/汪宁/.m2/repository/org/springframework/data/spring-data-redis/1.8.12.RELEASE/spring-data-redis-1.8.12.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549292245119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549473613912" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/Downloads/Chrome/spring-cloud-base-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -829,7 +934,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -853,7 +958,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UaaServiceApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Sugarda.uaaService.service.impl.Test" />
+      <module name="uaaService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Sugarda.uaaService.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="adminService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Sugarda.adminService.AdminServiceApplication" />
@@ -916,9 +1034,11 @@
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.UaaServiceApplication" />
       <item itemvalue="Spring Boot.UserManageServiceApplication" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.UserManageServiceApplication" />
       </list>
     </recent_temporary>
@@ -973,18 +1093,19 @@
       <workItem from="1547901655093" duration="2054000" />
       <workItem from="1547977263262" duration="4905000" />
       <workItem from="1548073272349" duration="4140000" />
-      <workItem from="1549272010168" duration="6948000" />
+      <workItem from="1549272010168" duration="7522000" />
+      <workItem from="1549429542282" duration="5619000" />
+      <workItem from="1549443396946" duration="20586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103780000" />
+    <option name="totallyTimeSpent" value="130559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -994,7 +1115,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36767897" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36767897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1003,7 +1124,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.329718" />
@@ -1028,152 +1149,247 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/adminService/src/main/java/com/Sugarda/adminService/AdminServiceApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="285">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/java/com/Sugarda/configService/ConfigServiceApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="157">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminService/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/application-dev.yml" />
-    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/application-pro.yml" />
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/uaaService.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/Util.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ViewControllerRegistry.class" />
-    <entry file="file://$PROJECT_DIR$/adminService/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="191">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/authentication/logout/LogoutFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/java/com/Sugarda/eurekaService/EurekaServiceApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" column="74" lean-forward="true" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        <state relative-caret-position="224">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="281">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/context/request/async/WebAsyncManagerIntegrationFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="320">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.6.RELEASE/spring-security-web-4.2.6.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="269">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/application-dev.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        <state relative-caret-position="157">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/ADMIN-SERVICE-dev.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="29">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/ADMIN-SERVICE-pro.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/HttpPutFormContentFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="175">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/application-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c65d2cc3-8f73-4cd4-9d63-d752e0cb2b32/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/uaaSQL.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/HiddenHttpMethodFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/DealCrossDomain.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/1.5.13.RELEASE/spring-boot-actuator-1.5.13.RELEASE.jar!/org/springframework/boot/actuate/autoconfigure/MetricsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/core/StandardWrapperValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/core/StandardContextValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/tomcat/util/net/NioEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="390" selection-start-line="390" selection-end-line="390" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/coyote/AbstractProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="776" selection-start-line="776" selection-end-line="776" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/core/StandardEngineValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/valves/ErrorReportValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/core/StandardHostValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.6.RELEASE/spring-security-crypto-4.2.6.RELEASE.jar!/org/springframework/security/crypto/factory/PasswordEncoderFactories.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/User_role_type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/SugardaUserDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1182,95 +1398,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        <state relative-caret-position="768">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaService/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.15.RELEASE/spring-security-oauth2-2.0.15.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="128" column="36" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/config/DealCrossDomain.java">
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/TokenStoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/vo/LoginVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://c65d2cc3-8f73-4cd4-9d63-d752e0cb2b32/schema/uaaservice/table/oauth_client_details">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c65d2cc3-8f73-4cd4-9d63-d752e0cb2b32/schema/uaaservice/table/clientdetails">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/pom.xml">
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_type_authorities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="426">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml">
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/UaaServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/SugardaUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/SugardaUserDetailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentPOM/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.12.RELEASE/spring-data-redis-1.8.12.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.12.RELEASE/spring-data-redis-1.8.12.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="834">
+          <caret line="118" column="33" lean-forward="true" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="e#3191#3192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/DealCrossDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JwtTokenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="90" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1279,88 +1544,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/MyRedisTokenStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-376">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/UaaServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/UserManageServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/GatewayServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/GATEWAY-SERVICE-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gatewayService/src/main/java/com/Sugarda/gatewayService/filter/AccessFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="52" column="119" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>

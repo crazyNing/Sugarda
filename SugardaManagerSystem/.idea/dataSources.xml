@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="uaaservice@127.0.0.1" uuid="c65d2cc3-8f73-4cd4-9d63-d752e0cb2b32">
+    <data-source source="LOCAL" name="user_database@localhost" uuid="be7fd6b9-05f7-4fcd-bd15-85678f99e312">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1:3306/uaaservice</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/user_database</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

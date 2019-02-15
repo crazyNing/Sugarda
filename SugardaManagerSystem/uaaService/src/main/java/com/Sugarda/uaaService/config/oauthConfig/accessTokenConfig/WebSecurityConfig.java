@@ -53,7 +53,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         provider.setUserDetailsService(sugardaUserDetailServiceImpl);
         // 禁止隐藏用户未找到异常
         provider.setHideUserNotFoundExceptions(false);
-        // 使用BCrypt进行密码的hash
+        // 使用BCrypt进行密码的hash，此处不对密码进行加密
         //provider.setPasswordEncoder();
 //        provider.setPasswordEncoder(new BCryptPasswordEncoder(6));
         return provider;

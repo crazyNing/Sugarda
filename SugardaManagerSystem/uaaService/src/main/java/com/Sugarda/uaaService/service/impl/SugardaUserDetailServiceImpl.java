@@ -28,7 +28,7 @@ public class SugardaUserDetailServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String userId) throws UsernameNotFoundException {
 
-        // 调用FeignClient查询用户
+        // 查询用户
         SugardaUser sugardaUser = sugardaUserService.getUserByUserId(userId);
         if (sugardaUser == null) {
             logger.error("找不到该用户，用户名：" + userId);

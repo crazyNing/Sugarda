@@ -2,6 +2,10 @@ server:
   #设置本服务所占端口
   port: ${SERVER_PORT:8001}
 spring:
+  thymeleaf:
+    prefix: classpath:/page/
+    suffix: .html
+    cache: false
   application:
     #设置本服务服务名
     name: ${UAA_SERVICE_NAME:UAA-SERVICE}

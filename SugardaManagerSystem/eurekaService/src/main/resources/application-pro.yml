@@ -43,8 +43,8 @@ management:
   security:
     #开启关键信息安全验证，以security.basic.enable为主
     enabled: true
-logging:
-  #设置输出日志文件名
-  file: ../eureka.log
+#logging:
+#  #设置输出日志文件名
+#  file: ../eureka.log
   #设置输出日志路径
   #path: /home/SugardaLogs

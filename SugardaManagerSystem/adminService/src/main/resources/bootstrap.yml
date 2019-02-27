@@ -33,5 +33,5 @@ eureka:
     serviceUrl:
       #设置eureka注册中心地址
       defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
-logging:
-  file: ../admin.log
+#logging:
+#  file: ../admin.log

@@ -42,7 +42,6 @@ public class JwtTokenConfig extends JwtAccessTokenConverter {
         convertData(oauth2AccessToken, oauth2AccessToken.getAdditionalInformation());
         return oauth2AccessToken;
     }
-
     private void convertData(OAuth2AccessToken accessToken, Map<String, ?> map) {
         accessToken.getAdditionalInformation().put("user_info", convertUserData(map.get("user_info")));
 

@@ -35,8 +35,8 @@ eureka:
 encrypt:
   #JCE加密密钥，通过环境变量获取，如果没有就使用冒号后面的值
   key: ${ENCRYPT_KEY:WangNing}
-logging:
-  #设置输出日志文件名
-  file: ../config.log
+#logging:
+#  #设置输出日志文件名
+#  file: ../config.log
   #设置输出日志路径
   #path: /home/SugardaLogs

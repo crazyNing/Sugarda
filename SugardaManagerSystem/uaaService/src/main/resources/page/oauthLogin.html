@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8"/>
     <title>登录</title>
+    <style type="text/css">
+        * {
+            padding: 0px auto;
+            margin: 0px auto;
+        }
+    </style>
 </head>
 <body>
-<h2>标准登录页面</h2>
-<h3>表单登录</h3>
 <!--spring security 默认处理用户名密码就是/login，可以自定义，需要loginProcessingUrl()-->
 <p style="color: red" th:if="${param.error}">用户名或密码错误</p>
 <form action="/authentication/form" method="post">
@@ -31,7 +35,5 @@
         </tr>
     </table>
 </form>
-
-
 </body>
 </html>

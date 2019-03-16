@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author WangNing
  * @date 2019/01/21
- * Pipeline is currently not supported for JedisClusterConnection.
+ * Dealing the problem of Pipeline is currently not supported for JedisClusterConnection.
  */
 public class MyRedisTokenStore implements TokenStore {
 

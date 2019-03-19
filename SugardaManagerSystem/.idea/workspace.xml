@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e708b589-dede-4a0a-84fc-37a6f643332e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaaService/src/main/resources/page/css/oauthLogin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/uaaService_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/uaaService_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uaaService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uaaService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaService/target/" />
     <ignored path="$PROJECT_DIR$/userManageService/target/" />
@@ -55,7 +61,7 @@
     <session id="1928700936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -64,53 +70,57 @@
           <entry key="project.open.time.4598" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmd" value="1" />
-          <entry key="html" value="12" />
+          <entry key="css" value="1" />
+          <entry key="html" value="14" />
           <entry key="iml" value="7" />
-          <entry key="java" value="112" />
+          <entry key="java" value="116" />
           <entry key="properties" value="3" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="52" />
-          <entry key="yml" value="80" />
+          <entry key="xml" value="53" />
+          <entry key="yml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="12" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="14" />
           <entry key="IDEA_MODULE" value="7" />
-          <entry key="JAVA" value="112" />
+          <entry key="JAVA" value="116" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="52" />
-          <entry key="YAML" value="80" />
+          <entry key="XML" value="53" />
+          <entry key="YAML" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="56" />
+          <entry key="css" value="1036" />
+          <entry key="html" value="586" />
           <entry key="java" value="1002" />
           <entry key="properties" value="1" />
           <entry key="txt" value="13" />
-          <entry key="xml" value="516" />
-          <entry key="yml" value="1916" />
+          <entry key="xml" value="517" />
+          <entry key="yml" value="1919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="56" />
+          <entry key="CSS" value="1036" />
+          <entry key="HTML" value="586" />
           <entry key="JAVA" value="1002" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="516" />
-          <entry key="YAML" value="1916" />
+          <entry key="XML" value="517" />
+          <entry key="YAML" value="1919" />
         </counts>
       </usages-collector>
     </session>
@@ -188,91 +198,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/vo/LoginVo.java">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/oauthGrant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="724">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml">
+        <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/SugardaUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/Role_type_authorities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="359">
+              <caret line="112" column="32" lean-forward="true" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -316,7 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/common/ResponseData.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/entity/Role_type_authorities.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/dao/UserDao.java" />
@@ -345,12 +285,10 @@
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/FromLoginConstant.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/myLoginPage/ResultModel.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/myLoginPage/SWCodeEnum.java" />
-        <option value="$PROJECT_DIR$/uaaService/pom.xml" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/myLoginPage/FromLoginConstant.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/myLoginPage/SecurityProperties.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/myLoginPage/AuthPageController.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/uaaService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/adminService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/ADMIN-SERVICE-dev.yml" />
@@ -361,12 +299,15 @@
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-pro.yml" />
         <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/eurekaService/src/main/resources/application-pro.yml" />
-        <option value="$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html" />
         <option value="$PROJECT_DIR$/uaaService/src/main/resources/page/oauthGrant.html" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/MyRedisTokenStore.java" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml" />
         <option value="$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/resources/page/css/oauthLogin.css" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/uaaService/pom.xml" />
+        <option value="$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html" />
       </list>
     </option>
   </component>
@@ -418,7 +359,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1095" />
     <option name="y" value="185" />
     <option name="width" value="975" />
@@ -532,6 +473,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -614,6 +557,60 @@
               <item name="uaaService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="oauthConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="oauthConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="accessTokenConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="oauthConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="jedisConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="uaaService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -657,22 +654,12 @@
               <item name="userManageService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SugardaManagerSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SugardaManagerSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="userManageService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -688,7 +675,7 @@
     <property name="SearchEverywhereHistoryKey" value="PasswordEncoderFactories&#9;PSI&#9;JAVA://org.springframework.security.crypto.factory.PasswordEncoderFactories&#10;BCryptPasswordEncoder&#9;PSI&#9;JAVA://org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder&#10;DaoAuthenticationProvider&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;additionalAuthenticationChecks&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider#additionalAuthenticationChecks&#10;AuthorizationServerConfigurerAdapter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;RedisTemplate&#9;FILE&#9;jar://C:/Users/汪宁/.m2/repository/org/springframework/data/spring-data-redis/1.8.12.RELEASE/spring-data-redis-1.8.12.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551772622088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552962471413" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/Downloads/Chrome/spring-cloud-base-master" />
@@ -721,7 +708,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UaaServiceApplication">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Sugarda.uaaService.service.impl.Test" />
       <module name="uaaService" />
@@ -876,17 +863,17 @@
       <workItem from="1551748705983" duration="4803000" />
       <workItem from="1552458691985" duration="6976000" />
       <workItem from="1552701398730" duration="37000" />
+      <workItem from="1552915833004" duration="7558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159448000" />
+    <option name="totallyTimeSpent" value="167006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12321144" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -896,7 +883,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31527627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31527627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -914,8 +901,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32684565" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32885906" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32675907" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3283582" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -930,15 +917,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/views/base-grant.html" />
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/controller/BaseMainController.java" />
-    <entry file="file://$PROJECT_DIR$/uaaService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adminService/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1040,31 +1019,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/oauthGrant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/service/SugardaUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JwtTokenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1096,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/DealCrossDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1124,24 +1075,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/MyRedisTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="83" column="67" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -1189,15 +1126,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/vo/LoginVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="171">
           <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userManageService/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="475">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/SugardaUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/Role_type_authorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1208,52 +1187,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/oauthGrant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/accessTokenConfig/JwtTokenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/oauthConfig/jedisConfig/MyRedisTokenStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="83" column="67" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/java/com/Sugarda/uaaService/config/DealCrossDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/css/oauthLogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/SugardaUser.java">
+    <entry file="file://$PROJECT_DIR$/uaaService/src/main/resources/page/oauthLogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManageService/src/main/java/com/Sugarda/userManageService/dao/entity/Role_type_authorities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/UAA-SERVICE-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configService/src/main/resources/config/USERMANAGE-SERVICE-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        <state relative-caret-position="359">
+          <caret line="112" column="32" lean-forward="true" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

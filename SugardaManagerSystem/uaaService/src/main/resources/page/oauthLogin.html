@@ -4,36 +4,131 @@
     <meta charset="UTF-8"/>
     <title>登录</title>
     <style type="text/css">
+        /*设置全局参数*/
         * {
-            padding: 0px auto;
+            text-align: center;
+            padding: 0px;
             margin: 0px auto;
+        }
+
+        #inputArea{
+            margin-top: 10%;
+        }
+
+        /*适配IE Edge，设置placeholder内容水平居中*/
+        input::-ms-input-placeholder {
+            text-align: center;
+        }
+
+        /*适配chrome和safari浏览器，设置placeholder内容水平居中*/
+        input::-webkit-input-placeholder {
+            text-align: center;
+        }
+
+        /*适配IE浏览器，设置placeholder内容水平居中*/
+        input:-ms-input-placeholder {
+            text-align: center;
+        }
+
+        /*适配火狐浏览器，设置placeholder内容水平居中*/
+        input::-moz-placeholder {
+            text-align: center;
+        }
+
+        /*设置输入框的外形*/
+        #userNameInput > input, #passwordInput > input {
+            width: 300px;
+            height: 30px;
+            margin: 10px;
+            font-size: 15px;
+            border-radius: 10px;
+            border: 1px lightgray solid;
+        }
+
+        /*设置输入框动画*/
+        @keyframes onfocusInput {
+            from {
+                font-size: 15px;
+                border: 1px gray solid;
+            }
+            to {
+                font-size: 20px;
+                border: 1px black solid;
+            }
+        }
+
+        @-moz-keyframes onfocusInput /* Firefox */
+        {
+            from {
+                font-size: 15px;
+                border: 1px lightgray solid;
+            }
+            to {
+                font-size: 20px;
+                border: 1px black solid;
+            }
+        }
+
+        @-webkit-keyframes onfocusInput /* Safari 和 Chrome */
+        {
+            from {
+                font-size: 15px;
+                border: 1px lightgray solid;
+            }
+            to {
+                font-size: 20px;
+                border: 1px black solid;
+            }
+        }
+
+        @-o-keyframes onfocusInput /* Opera */
+        {
+            from {
+                font-size: 15px;
+                border: 1px lightgray solid;
+            }
+            to {
+                font-size: 20px;
+                border: 1px black solid;
+            }
+        }
+
+        /*设置输入框获得焦点时发生改变*/
+        #userNameInput > input:focus, #passwordInput > input:focus {
+            animation: onfocusInput 1s;
+            animation-fill-mode: forwards;
+            -moz-animation: onfocusInput 1s; /* Firefox */
+            -moz-animation-fill-mode: forwards; /* Firefox */
+            -webkit-animation: onfocusInput 1s; /* Safari 和 Chrome */
+            -webkit-animation-fill-mode: forwards; /* Safari 和 Chrome */
+            -o-animation: onfocusInput 1s; /* Opera */
+            -o-animation-fill-mode: forwards; /* Opera */
+        }
+
+        /*设置登陆按钮的样式*/
+        #loginButton {
+            width: 80px;
+            height: 25px;
+            background-color: lightcoral;
+            border-radius: 10px;
+            border: 1px;
+            margin: 20px;
         }
     </style>
 </head>
 <body>
-<!--spring security 默认处理用户名密码就是/login，可以自定义，需要loginProcessingUrl()-->
-<p style="color: red" th:if="${param.error}">用户名或密码错误</p>
-<form action="/authentication/form" method="post">
-    <table>
-        <tr>
-            <td>用户名:</td>
-            <td>
-                <label><input type="text" name="username"/></label>
-            </td>
-        </tr>
-        <tr>
-            <td>密码:</td>
-            <td>
-                <label><input type="password" name="password"/></label>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <button type="submit">登录</button>
-            </td>
-        </tr>
-    </table>
-</form>
+<div id="inputArea">
+    <!--spring security 默认处理用户名密码就是/login，可以自定义，需要loginProcessingUrl()-->
+    <form action="/authentication/form" method="post">
+        <!--<div id="userName">用户名</div>-->
+        <div id="userNameInput"><input type="text" placeholder="请输入用户名" name="username"/></div>
+        <!--<div id="password">密码</div>-->
+        <div id="passwordInput"><input type="password" placeholder="请输入密码" name="password"/><i
+                class="fa fa-eye-slash"></i>
+        </div>
+        <button type="submit" id="loginButton">登录</button>
+        <p style="color: red" th:if="${param.error}">用户名或密码错误</p>
+    </form>
+</div>
 </body>
 </html>

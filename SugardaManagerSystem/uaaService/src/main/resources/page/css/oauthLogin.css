@@ -1,0 +1,114 @@
+/*设置全局参数*/
+* {
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+/*适配IE Edge，设置placeholder内容水平居中*/
+input::-ms-input-placeholder {
+    text-align: center;
+}
+
+/*适配chrome和safari浏览器，设置placeholder内容水平居中*/
+input::-webkit-input-placeholder {
+    text-align: center;
+}
+
+/*适配IE浏览器，设置placeholder内容水平居中*/
+input:-ms-input-placeholder {
+    text-align: center;
+}
+
+/*适配火狐浏览器，设置placeholder内容水平居中*/
+input::-moz-placeholder {
+    text-align: center;
+}
+
+/*控制输入表单域的位置*/
+#inputArea {
+    position: relative;
+    padding-top: 15%;
+    padding-left: 40%;
+}
+
+#userNameInput>input{
+    position: relative;
+}
+
+/*设置输入框的外形*/
+#userNameInput > input, #passwordInput > input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px lightgray solid;
+}
+
+/*设置输入框动画*/
+@keyframes onfocusInput {
+    from {
+        font-size: 15px;
+        border: 1px gray solid;
+    }
+    to {
+        font-size: 20px;
+        border: 1px black solid;
+    }
+}
+
+@-moz-keyframes onfocusInput /* Firefox */
+{
+    from {
+        font-size: 15px;
+        border: 1px lightgray solid;
+    }
+    to {
+        font-size: 20px;
+        border: 1px black solid;
+    }
+}
+
+@-webkit-keyframes onfocusInput /* Safari 和 Chrome */
+{
+    from {
+        font-size: 15px;
+        border: 1px lightgray solid;
+    }
+    to {
+        font-size: 20px;
+        border: 1px black solid;
+    }
+}
+
+@-o-keyframes onfocusInput /* Opera */
+{
+    from {
+        font-size: 15px;
+        border: 1px lightgray solid;
+    }
+    to {
+        font-size: 20px;
+        border: 1px black solid;
+    }
+}
+
+/*设置输入框获得焦点时发生改变*/
+#userNameInput > input:focus, #passwordInput > input:focus {
+    animation: onfocusInput 1s;
+    animation-fill-mode: forwards;
+    -moz-animation: onfocusInput 1s;	/* Firefox */
+    -moz-animation-fill-mode: forwards; /* Firefox */
+    -webkit-animation: onfocusInput 1s;	/* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /* Safari 和 Chrome */
+    -o-animation: onfocusInput 1s;	/* Opera */
+    -o-animation-fill-mode: forwards; /* Opera */
+}
+
+/*设置登陆按钮的样式*/
+#loginButton {
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px;
+}

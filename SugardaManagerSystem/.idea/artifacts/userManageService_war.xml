@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="userManageService:war">
     <output-path>$PROJECT_DIR$/userManageService/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>userManageService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="userManageService-V1.0.war">
       <element id="artifact" artifact-name="userManageService:war exploded" />
     </root>

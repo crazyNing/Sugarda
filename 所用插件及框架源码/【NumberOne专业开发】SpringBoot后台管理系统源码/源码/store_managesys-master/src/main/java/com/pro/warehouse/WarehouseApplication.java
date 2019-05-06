@@ -15,12 +15,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //@ServletComponentScan
 public class WarehouseApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(WarehouseApplication.class, args);
-	}
-
-
-
+    public static void main(String[] args) {
+        SpringApplication.run(WarehouseApplication.class, args);
+    }
 
 
 }

@@ -1,0 +1,4 @@
+1、Maven安装及配置教程
+https://www.yiibai.com/maven/maven_environment_setup.html
+2、idea配置maven教程
+https://blog.csdn.net/gaomb_1990/article/details/80644725

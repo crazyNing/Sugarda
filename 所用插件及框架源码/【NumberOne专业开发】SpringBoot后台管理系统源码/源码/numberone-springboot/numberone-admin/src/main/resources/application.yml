@@ -7,7 +7,7 @@ numberone:
   # 版权年份
   copyrightYear: 2019
   # 文件上传路径
-  profile: C:/profile/
+  profile: /data/profile/
   # 获取ip地址开关
   addressEnabled: true
 
@@ -132,3 +132,21 @@ gen:
   autoRemovePre: true
   # 表前缀(类名不会包含表前缀)
   tablePrefix: sys_
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    #是否使用IP代替实例名，默认为True,设置为True时instance-id属性中的获取值不生效
+#    #设置服务在eureka中访问的地址，默认使用IP
+#    #hostname: ${spring.cloud.client.ipAddress}
+#    #设置服务在页面显示的值，默认为IP+服务名+端口号
+#    instance-id: ${spring_application_ip:${spring.cloud.client.ipAddress}}:${spring.application.name}:${server.port}
+#    #设置服务访问的ip地址
+#    ip-address: ${spring_application_ip:${spring.cloud.client.ipAddress}}
+#  client:
+#    serviceUrl:
+#      #设置eureka注册中心地址，通过环境变量获取，如果没有就使用冒号后面的值
+#      defaultZone: http://${EUREKA_USER_NAME:admin}:${EUREKA_USER_PASSWORD:admin123}@${EUREKA_HOST_IP:localhost}:${EUREKA_SERVER_REGISTER_PORT:8761}/eureka/
+#      #instance: #将自身的用户名密码告知eureka，spring boot2.0以后版本生效
+#      #metadata-map:
+#      #"user.name": ${security.user.name}
+#      #"user.password": ${security.user.password}
